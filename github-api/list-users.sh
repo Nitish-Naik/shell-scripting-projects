@@ -1,12 +1,12 @@
 #!/bin/bash
 #
 ############################################################################################
-#	Author: P Nitish								   #
-#	Date: 07 Nov									   #
-#	Version: v1									   #
-#											   #
-#	This script is to list the number of users having permission to a repository.    ii  #
-#
+#	Author: P Nitish								   
+#	Date: 07 Nov									   
+#	Version: v1									   
+#											   
+#	This script is to list the number of users having permission to a repository.
+##########################################################################################
 
 set -x
 
