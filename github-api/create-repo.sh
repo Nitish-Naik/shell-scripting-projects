@@ -4,7 +4,7 @@
 #       Date:        07/11
 #       Version:     v1.2
 #
-#       Purpose: Create a new GitHub repository (user or org)
+#       Purpose: Create a new GitHub repository (user or org).
 ###########################################################################
 
 set -euo pipefail
