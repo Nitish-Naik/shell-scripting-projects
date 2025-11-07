@@ -51,10 +51,10 @@ create_repo() {
     }")
 
   if [[ "$response" -eq 201 ]]; then
-    echo "✅ Repository created successfully!"
+    echo "Repository created successfully!"
     jq '.html_url' /tmp/resp.json
   else
-    echo "❌ Failed to create repository. HTTP code: $response"
+    echo "Failed to create repository. HTTP code: $response"
     jq . /tmp/resp.json
     exit 1
   fi
